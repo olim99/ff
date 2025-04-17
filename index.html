@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MARS IT Calculator</title>
+  <link rel="stylesheet" href="./stayle.css">
+</head>
+<body>
+
+  <div>
+    <div style="text-align: center;">
+      <div style="background: white; color: purple; width: 35px; height: 35px; border-radius: 50%; margin: 0 auto; font-size: 24px; line-height: 35px;"></div>
+      <h1>MARS IT Calculator</h1>
+    </div>
+
+    <input type="number" id="num1" placeholder="Birinchi sonni kiriting">
+    <input type="number" id="num2" placeholder="Ikkinchi sonni kiriting">
+
+    <div class="buttons">
+      <button onclick="calculate('+')">Yig'indi</button>
+      <button onclick="calculate('-')">Ayirma</button>
+      <button onclick="calculate('*')">Ko'paytma</button>
+      <button onclick="calculate('/')">Bo'linma</button>
+    </div>
+
+    <div class="result" id="result">Result: </div>
+  </div>
+
+  <footer>© 2024 alfarruq Calculator</footer>
+
+<script src="./script.js"></script>
+</body>
+</html>
